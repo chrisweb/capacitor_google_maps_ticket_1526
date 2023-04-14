@@ -56,7 +56,7 @@ to test the app, connect your iPhone via USB to your Mac (if you have an M1 Mac 
 
 the first time (if you did not set your developer account in the app settings) you will see an error "build failed", on top you will see a red circle with an "x" click on it and you will see that the error is "Signing for "App" requires a development team", click on the error message to be redirected to the app settings, click on "Signing & Capabilities", under **Targets >** click on **App**, then next to **Capability** chose the option **All** (and NOT debug or release), then as **Team** chose your apple account and as **Bundle Identifier** chose something like "com.example_cap_bug.app", now click below on the button "Try Again", signing should now be fixed, so now hit the **>** play button again to launch the build process
 
-now the build might fail again, unlock your phone and you should see a message **untrusted developer**, to fix that open the **settings app**, go into **General** then click on **VPN & Device Management**, then under **developer app** click on your account, then click **trust** and confirm a second time in the modal
+now the build might fail again, unlock your phone and you should see a message **untrusted developer**, to fix that open the **settings app**, go into **General** then click on **VPN & Device Management**, then under **developer app** click on your account, then click **trust** and confirm a second time in the modal, go back into Xcode and launch the build again
 
 then open safari, in the safari navigation click on **delevop** and wait for your iPhone to show up, click on **iPhone**, then click on **localhost**, then open the **console tab** in the developper tools
 
