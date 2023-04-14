@@ -1,0 +1,11 @@
+{
+  "appId": "com.example.app",
+  "appName": "capacitor_google_maps_ticket_1526",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.idea/
+node_modules/
+.vscode/
+*.map
+.DS_Store
+.sourcemaps
+
+# app dist (build) directory
+dist/
+
+# app capacitor ios and android directories
+ios/
+android/
+
+# app configuration file
+app.config.js
